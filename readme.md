@@ -2,7 +2,7 @@
 
 My house was wired with contact sensors in each door leading up into an ADT control panel. We don't pay for ADT anymore and the alarm panel was broken. The only logical thing to do was make my contact sensors smart and compatiable with Home Assistant running a MQTT Broker.
 
-The board detects if each circut was closed or open by checking the voltage using digitalRead() against the GND pin and published updates to Home Assistant at n second intervals. 
+The board detects if each circut was closed or open by checking the voltage using digitalRead() against the ground pin and published updates to Home Assistant at n second intervals. 
 
 ## What You Need
 
